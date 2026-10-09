@@ -1,10 +1,10 @@
-<xml xmlns="http://www.w3.org/1999/xhtml" collection="false">
+<xml xmlns="http://www.w3.org/1999/xhtml" collection="true">
   <variables>
-    <variable type="" id=",@FY[c)YUi~^L^?*VeDP">lowbal</variable>
+    <variable type="" id=",@FY[c)YUi~^L^?*VeDP">run both contracts</variable>
     <variable type="" id="RHgF*C%#h{|Ha5u;#5j?">Initial Amount</variable>
-    <variable type="" id="@pB[(xlR5vVc?V^:YD-;">PREDICTION 2</variable>
+    <variable type="" id="@pB[(xlR5vVc?V^:YD-;">open higher contract first({"contract type":"CALL","amount":1,"duration":5</variable>
     <variable type="" id="(obU$~2J]hr/k0`hgX8/">Win Amount</variable>
-    <variable type="" id="6o_9Nu#$3m#.?zV=ahjK">Prediction</variable>
+    <variable type="" id="6o_9Nu#$3m#.?zV=ahjK">open lower contract second({"contract type":"PUT","amount":1,"duration":5</variable>
     <variable type="" id="}=I4E;T2R^88!*leyp,p">lowestbal</variable>
     <variable type="" id="X5dL.(Tj*H57Wle]V=MB">LOSS AMOUNT BEFORE MATINGALE</variable>
     <variable type="" id="rUPB[)tUi3we;byHr`7]">Time</variable>
@@ -15,9 +15,9 @@
     <field name="MARKET_LIST">synthetic_index</field>
     <field name="SUBMARKET_LIST">random_index</field>
     <field name="SYMBOL_LIST">R_100</field>
-    <field name="TRADETYPECAT_LIST">digits</field>
-    <field name="TRADETYPE_LIST">overunder</field>
-    <field name="TYPE_LIST">DIGITOVER</field>
+    <field name="TRADETYPECAT_LIST">updown</field>
+    <field name="TRADETYPE_LIST">higherlower</field>
+    <field name="TYPE_LIST">runupdownhigherlower</field>
     <field name="CANDLEINTERVAL_LIST">60</field>
     <field name="TIME_MACHINE_ENABLED">FALSE</field>
     <field name="RESTARTONERROR">FALSE</field>
